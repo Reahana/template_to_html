@@ -57,7 +57,7 @@
 .text-white{color: white;}
 .text-light{color:rgb(255, 255, 255)}
 .text-black{color: black;}
-.text-grey{color: rgb(109, 108, 108)}
+.text-grey{color: #9AA1A9}
 
 .text-right{text-align: right;}
 
@@ -69,6 +69,8 @@
 .py-10{padding-top: 10px; padding-bottom: 10px;}
 .py-50{padding-top: 50px; padding-bottom: 50px;}
 .pr-10{padding-right:10px ;}
+.pr-30{padding-right: 30px;}
+.pl-50{padding-left: 50px;}
 
 .mr-5{margin-right: 5px;}
 .ml-5{margin-left: 5px;}
@@ -244,14 +246,55 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
+    background-color: red;
+}
+.about-heading{
+    padding-top: 50px;
+    padding-left: 30px;
+} 
+.about-line{
+    height: 1px;
+    width: 10%;
+    border: 1px solid #F5BA17;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.about-paragraph{
+    padding-left: 40px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    color:#9AA1A9 ;
+}
+.about-footer{
+   padding-left: 30px;
+   margin-top: 70px;
+}
+.about-icon{
+    color: #11A0AD;
+    margin-right: 5px;
+}
+.icon-text{
+    font-family: sans-serif;
+}
+.icon-line{
+    float: left;
+    height: 35px;
+    width: 1px;
+    border: 1px dotted #9AA1A9;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 6px;
 }
 
+/* business-details */
 .business-details{
-    height: 400px;
+    height: 300px;
     background-image: url("../img/sm-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+   
 }
 .fluid-bg{
     background-color: rgba(0,0,0,0.5);
@@ -261,4 +304,24 @@
 .small-business{
     background-color: rgba(0,0,0,0.5);
     height: 100%;
+}
+.small-business-heading {
+    padding-top:50px ;
+    padding-left: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.small-business-paragraph {
+    padding-top:15px ;
+    padding-left: 50px;
+    padding-right: 160px;
+    margin-bottom: 40px;
+}
+
+.business-list ul {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.business-icon{
+    padding-right: 10px;
 }
