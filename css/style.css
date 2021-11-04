@@ -61,6 +61,8 @@
 
 .text-right{text-align: right;}
 
+
+
 .float-left{float: left;}
 .float-right{float: right;}
 
@@ -71,6 +73,7 @@
 .pr-10{padding-right:10px ;}
 .pr-30{padding-right: 30px;}
 .pl-50{padding-left: 50px;}
+.pb-10{padding-bottom: 30px;}
 
 .mr-5{margin-right: 5px;}
 .ml-5{margin-left: 5px;}
@@ -286,7 +289,31 @@
     margin-left: 20px;
     margin-right: 6px;
 }
+/* testimonial */
+.testimonial-heading{
+    padding-top: 50px;
+}
+.testimonial-line{
+    height: 1px;
+    width: 10%;
+    border: 1px solid #F5BA17;
+   margin-top: 2px;
+   margin-bottom: 10px;
+}
+.testimonial-image img{
 
+    border-radius: 50%;
+}
+.testimonial-name{
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.testimonial-content{}
+.sign{}
+.testimonial-footer{
+    margin-top: 50px;
+}
 /* business-details */
 .business-details{
     height: 300px;
