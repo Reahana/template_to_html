@@ -59,6 +59,7 @@
 .text-light{color:rgb(255, 255, 255)}
 .text-black{color: black;}
 .text-grey{color: #9AA1A9}
+.text-sky{color: #13A0B2;}
 
 .text-right{text-align: right;}
 
@@ -69,8 +70,10 @@
 
 .font-sans{font-family: sans-serif;}
 
-.font-50{font-size: 40px;}
-.font-30{font-size: 20px;}
+/* .font-10{font-size: 12px;}
+.font-30{font-size: 20px;} */
+
+.font-bold{font-weight: bold;}
 
 .py-10{padding-top: 10px; padding-bottom: 10px;}
 .py-50{padding-top: 50px; padding-bottom: 50px;}
@@ -254,7 +257,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
-    background-color: red;
+
 }
 .about-heading{
     padding-top: 50px;
@@ -400,6 +403,44 @@
     float: left;
     margin-left: 40px;
 }
+/* advisors */
+.advisors{
+    background-color: #FAFBFD;
+}
+.advisor-heading{
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.advisor-line{
+    height: 1px;
+    width: 4%;
+    border: 2px solid #F5BA17;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.advisor-image
+{
+    margin-top:10px;
+   
+    
+}
+.advisor-name{
+   border-top: 2px solid #fdd804;
+    margin-top:-4px;
+    background-color: #273039;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+/* latest-news */
+.latest-news{
+    background-color: #F3F3F3;
+}
+
 /* contact */
 .contact{
     background-color: #13A0B2;
