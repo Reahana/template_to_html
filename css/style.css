@@ -18,7 +18,7 @@
 
 [class*='col-']{
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .row:after{
     content: '';
@@ -415,6 +415,10 @@
 }
 .contact-btn
 {
-    /* background-color: #F6BB19; */
+    font-weight: bold;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top:25px;
+    margin-left: 10px;
 }
 .btn-bg{background-color: #F6BB19;}
