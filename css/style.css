@@ -400,3 +400,21 @@
     float: left;
     margin-left: 40px;
 }
+/* contact */
+.contact{
+    background-color: #13A0B2;
+}
+.contact-statement{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+.contact-btn
+{
+    /* background-color: #F6BB19; */
+}
+.btn-bg{background-color: #F6BB19;}
