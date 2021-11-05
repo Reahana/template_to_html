@@ -69,6 +69,9 @@
 
 .font-sans{font-family: sans-serif;}
 
+.font-50{font-size: 40px;}
+.font-30{font-size: 20px;}
+
 .py-10{padding-top: 10px; padding-bottom: 10px;}
 .py-50{padding-top: 50px; padding-bottom: 50px;}
 .pr-10{padding-right:10px ;}
@@ -365,5 +368,35 @@
 
 /* counter */
 .counter{
-    background-color: #13A0B2;
+    background-color: #129FB1;
+}
+.counter-line{
+    margin-top: 45px;
+    margin-bottom: 2px;
+    height: 1px;
+    width: 8%;
+    border: 2px solid #F6BA19;
+    margin-left: 30px;
+}
+.counter-number{
+    color: white;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.counter-content{
+    color: white;
+    margin-top: 17px;
+    text-transform: uppercase;
+    margin-left: 18px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.counter-bottom-line{
+    height: 50px;
+    width: 1px;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 40px;
 }
