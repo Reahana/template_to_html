@@ -60,6 +60,7 @@
 .text-black{color: black;}
 .text-grey{color: #9AA1A9}
 .text-sky{color: #13A0B2;}
+.text-yellow{color:#F6BB19;}
 
 .text-right{text-align: right;}
 
@@ -69,9 +70,6 @@
 .float-right{float: right;}
 
 .font-sans{font-family: sans-serif;}
-
-/* .font-10{font-size: 12px;}
-.font-30{font-size: 20px;} */
 
 .font-bold{font-weight: bold;}
 
@@ -245,8 +243,6 @@
     font-weight: bold;
     padding: 10px 10px;
     font-family: sans-serif;
-    /* float: right;
-    margin-top: 20px; */
     position: absolute;
     right: 0;
     top:60px;
@@ -317,7 +313,6 @@
     font-family: sans-serif;
 }
 .testimonial-content{
-    /* margin-right: 5px; */
     margin-bottom: 20px;
     padding-right:10px;
 }
@@ -411,7 +406,7 @@
     font-family: sans-serif;
     margin-top: 50px;
 }
-.advisor-line{
+.advisor-line,.latest-news-line{
     height: 1px;
     width: 4%;
     border: 2px solid #F5BA17;
@@ -439,6 +434,57 @@
 /* latest-news */
 .latest-news{
     background-color: #F3F3F3;
+}
+.latest-news-heading{
+    margin-top: 50px;
+}
+.latest-news-image-one{
+  background-image: url("../img/12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+.latest-news-image-two{
+    background-image: url("../img/13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+  .latest-news-image-three{
+    background-image: url("../img/14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+  .latest-news-image-four{
+    background-image: url("../img/15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+.news{
+    background-color:  rgba(51, 51, 53, 0.8);
+    height: 100%;
+
+}
+.news-line{
+    height: 60px;
+    width: 1px;
+    border: 1px solid #13A0B2;
+    float: left;
+  margin-left:10px ;
+  margin-top: 30px;
+  margin-right: 10px;
+
+}
+.news-content{
+    padding-top: 50px;
+    margin-top: 30px; 
+    float: left;
 }
 
 /* contact */
