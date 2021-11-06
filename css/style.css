@@ -486,7 +486,52 @@
     margin-top: 30px; 
     float: left;
 }
-
+/* partner */
+.partners,.testimonial{
+    background-image: url("../img/t-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.partner-heading,.get-in-touch-heading{
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.partner-line,.get-in-touch-line{
+    height: 1px;
+    width: 8%;
+    border: 1px solid #F5BA17;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.partner-content{
+    margin-top:20px ;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    color: rgb(158, 154, 154);
+}
+.partner-image{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* get-in-touch */
+.get-in-touch-form{
+   
+    padding:20px ;
+    margin-left: 10px;
+    border: 5px solid #f0f0f1;
+}
+.get-in-touch-form input{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.get-in-touch-button {
+  
+    background-color: #13A0B2;
+    color: white;
+}
 /* contact */
 .contact{
     background-color: #13A0B2;
