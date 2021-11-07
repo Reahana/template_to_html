@@ -18,7 +18,7 @@
 
 [class*='col-']{
     float: left;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 .row:after{
     content: '';
@@ -554,3 +554,39 @@
     margin-left: 10px;
 }
 .btn-bg{background-color: #F6BB19;}
+/* footer-top */
+.footer-top{
+    background-color:#202932 ;
+}
+.our-services-heading{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.our-services-line{
+    height: 1px;
+    width: 25%;
+    border: 1px solid #13A0B2;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.our-services-point{
+    color:lightgray;
+    font-size: 12px;
+}
+.our-services-point p{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+/* footer-bottom */
+.footer-bottom{
+    background-color: #1B222A;
+}
+.copyright,.creator{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: #13A0B2;
+    font-size: 12px;
+    font-family: sans-serif;
+}
