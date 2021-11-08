@@ -18,7 +18,7 @@
 
 [class*='col-']{
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .row:after{
     content: '';
@@ -558,27 +558,57 @@
 .footer-top{
     background-color:#202932 ;
 }
-.our-services-heading{
+.our-services-heading, .twitter-feeds-heading{
     color: white;
     font-family: sans-serif;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-.our-services-line{
+.our-services-line,.twitter-feeds-line{
     height: 1px;
-    width: 25%;
+    width: 22%;
     border: 1px solid #13A0B2;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 .our-services-point{
-    color:lightgray;
+    color:#8d8e8f;
     font-size: 12px;
+    
 }
 .our-services-point p{
     margin-bottom: 10px;
     margin-left: 5px;
 }
-
+.twitter-feeds-content{
+    padding-bottom: 20px;
+    color:#8d8e8f;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+.flickr-widget-heading{
+    margin-left: 40px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.flickr-widget-line{
+    height: 1px;
+    width: 22%;
+    border: 1px solid #13A0B2;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+.flickr-widget-image{
+    float: right;
+    margin-right: 50px;
+    
+}
+.flickr-widget-image img{
+    padding: 2px;
+}
 /* footer-bottom */
 .footer-bottom{
     background-color: #1B222A;
