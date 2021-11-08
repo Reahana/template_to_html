@@ -598,6 +598,29 @@
 .footer-top{
     background-color:#202932 ;
 }
+.footer-logo{
+    margin-top: 50px;
+}
+.footer-content{
+    margin-top: 10px;
+    color:#8d8e8f;
+    margin-bottom: 20px;
+}
+.footer-phone{
+    color: #13A0B2;
+    font-size: 20px;
+   
+}
+.footer-email{
+    color:#8d8e8f;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.footer-social{
+    font-size: 30px;
+    color:#8d8e8f;
+  
+}
 .our-services-heading, .twitter-feeds-heading{
     color: white;
     font-family: sans-serif;
@@ -656,7 +679,7 @@
 .copyright,.creator{
     margin-top:10px;
     margin-bottom: 10px;
-    color: #13A0B2;
+    color: #21505A;
     font-size: 12px;
     font-family: sans-serif;
 }
