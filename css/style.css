@@ -111,6 +111,7 @@
 }
 .menu{
     float: left;
+    
 }
 .menu ul{
     list-style-type: none;
@@ -120,6 +121,7 @@
 .menu ul li{
     float: left;
     width: 106px;
+    
 }
 .menu ul li:last-child{
     background-color: rgb(255, 228, 77);
@@ -682,4 +684,13 @@
     color: #21505A;
     font-size: 12px;
     font-family: sans-serif;
+}
+
+
+@media screen  and (min-width:1440) {
+    .menu ul li{
+        float: left;
+        width: 142px;
+        
+    }
 }
